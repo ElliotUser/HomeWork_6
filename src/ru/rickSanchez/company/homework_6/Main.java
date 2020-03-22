@@ -12,7 +12,7 @@ public class Main {
         File f1 = new File(pathFile1);
         File f2 = new File(pathFile2);
 
-        //text.glueTogether(f1,f2);
+        text.glueTogether(f1,f2);
         text.checkWord("There",f1);
 
     }

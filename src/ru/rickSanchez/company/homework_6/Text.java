@@ -1,20 +1,15 @@
 package ru.rickSanchez.company.homework_6;
 
-import java.io.CharArrayWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Text {
     File f1;
     File f2;
-    String[] myArr;
-    int[] arr;
-    String inputLine = "";
 
     public void glueTogether(File f1, File f2){
         try (FileWriter writer = new FileWriter(f1,true);
